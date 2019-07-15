@@ -29,8 +29,9 @@ body {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   font-family: IRANSans !important ;
 }
-input{
- font-family: IRANSans !important ;
+input::placeholder{
+  font-family: IRANSans !important;
+  font-size: 11px;
 }
 .pageHeader {
   width: 100%;
